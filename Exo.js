@@ -17,7 +17,7 @@ var nom1= prompt("Quel est ton nom?");
 var prenom1 = prompt("Quel est ton prenom?");
 var ville1 = prompt("Où habite-tu?");
 alert("Bonjour, "+ prenom1 + " " + nom1 + " tu habite à " + ville1);
-*/
+
 //Exo 5
 var nb1 = prompt("Choisi un nombre à virgule");
 var nb2 = prompt("Choisi un deuxième nombre à virgule");
@@ -25,3 +25,4 @@ nb1=parseInt(nb1);
 nb2=parseInt(nb2);
 var result = nb1 * nb2;
 alert(result);
+*/
