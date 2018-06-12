@@ -43,25 +43,24 @@ function identite(nom, prenom, age){
 	var r="Bonjour, " + nom + " " + prenom + ", tu as " + age + " ans.";
 	alert(r);
 	return r;
-}*/
+}
 //Exo 7
 
-function ident(age, sexe){
-	
-	var sexe=confirme("Est tu un male?");
-		if (sexe == true) {
-			alert("Tu es un homme");
-			return "Tu es un homme";
-		}else {
-			alert("Tu es une femme");
-			return "Tu es une femme";
+function ident(age, genre){
+	var type ="homme" || "femme";
+	var genre=prompt("De quel genre es tu? (homme ou femme)");
+		if (genre == type) {
+			var age=prompt("Ton age?");
+			if (age >=18) {
+				var statut="vous êtes majeur";
+			}else{
+			var statut="vous êtes mineur"
+			}
 		}
-	var age=prompt("Ton age?");
-		if (age >=18) {
-			alert("tu es majeur!");
-		}else{
-			alert("tu es mineur!");
+		else{
+			alert("Veuillez rentrer un genre correct.");
+			
 		}
-	var r =alert(sexe + " et " + age);
+		var r =alert("Vous êtes un(e)" + genre + " et " + statut);
 	return r;
-}
+} */
