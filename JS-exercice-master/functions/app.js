@@ -64,3 +64,12 @@ function ident(age, genre){
 		var r =alert("Vous êtes un(e)" + genre + " et " + statut);
 	return r;
 } */
+//Exo 9
+function calcul(a, b, c){
+	var a = prompt("entre un numéro");
+	var b = prompt("entre un numéro");
+	var c = prompt("entre un numéro");
+	var r = Number(a) + Number(b) + Number(c);
+	alert(r);
+	return r;
+}
