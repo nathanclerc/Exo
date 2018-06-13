@@ -24,14 +24,20 @@
    document.getElementById('image5').setAttribute('src', 'images/image5_2.jpg');
 });
 */
-	var img = document.getElementsByClassName("image").addEventListener("mouseover");
-	console.log(img);
-	document.getElementById(img).addEventListener("mouseover", function onHover(){
+///////////////////////////////////////////////////////////////////////////////////////////////
+	//var img = document.getElementsByClassName("image");
+	var over = addEventListener("mouseover", function onHover(){
+		console.log(over);
+		var id =document.getElementById(over);
+		console.log(id);
+	});
+	//console.log(img);
+	//document.getElementsByClassName('image').addEventListener("mouseover", function onHover(){
 
-	if (img == 'image1') {
+//	if (img == 'image1') {
 
-   document.getElementById('image1').setAttribute('src', 'images/image1_2.jpg');
-} else if (img == 'image2') {
-	document.getElementById('image2').setAttribute('src', 'images/image2_2.jpg');
-}
-});
+//   document.getElementById('image1').setAttribute('src', 'images/image1_2.jpg');
+//} else if (img == 'image2') {
+//	document.getElementById('image2').setAttribute('src', 'images/image2_2.jpg');
+//}
+//});
